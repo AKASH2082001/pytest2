@@ -1,15 +1,23 @@
 def div_5(x):
-    div5 = x%5 == 0
-    return div5
+    if x%5 == 0:
+        return True
+    else:
+        return False
 def div_7(x):
-    div7 = x%7 == 0
-    return div7
+    if x%7 == 0:
+        return True
+    else:
+        return False
 def div_9(x):
-    div9 = x%9 == 0
-    return div9
+    if x%9 == 0:
+        return True
+    else:
+        return False
 def div_10(x):
-    div10 = x%10 == 0
-    return div10
+    if x%10 == 0:
+        return True
+    else:
+        return False
 
 if __name__ == "__main__":
 
